@@ -67,7 +67,6 @@ document.addEventListener("mousemove", function(event){
     c.moveTo(tempx + 30, tempy);
     c.arc(tempx, tempy ,30,0,2*Math.PI, true);
         }
-        console.log();
     }
     c.stroke();
  });
